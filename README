@@ -1,0 +1,61 @@
+ruby-webkit
+------------------------------------------
+Ruby bindings for the GTK+ port of WebKit.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib2-2.16.3-1
+  gtk2-x11-2.12.9-1
+  ruby-1.8.6_p114-1
+  ruby-glib2-0.17.0_rc1-1
+  ruby-gtk2-0.17.0_rc1-1
+  webkit-0.1.34279-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-1
+  cygport-0.3.12-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+
+Canonical website:
+  http://www.daniellucraft.com/blog/category/ruby-webkit/
+
+Canonical download:
+  git://github.com/danlucraft/rbwebkitgtk.git
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-webkit-20080413-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-webkit-20080413-X.cygport all
+
+This will create:
+  /usr/src/ruby-webkit-20080413-X-src.tar.bz2
+  /usr/src/ruby-webkit-20080413-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/libruby-rbwebkitgtk.a
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/rbwebkitgtk.so
+  /usr/lib/ruby/site_ruby/1.8/webkit.rb
+  /usr/share/doc/ruby-webkit-20080413/COPYING.LIB
+  /usr/share/doc/ruby-webkit-20080413/ChangeLog
+  /usr/share/doc/ruby-webkit-20080413/README
+
+------------------
+
+Port Notes:
+
+----- version 20080413-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

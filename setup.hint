@@ -1,0 +1,4 @@
+category: Gnome Ruby Web
+requires: cygwin glib2 gtk2-x11 ruby ruby-glib2 ruby-gtk2 webkit
+sdesc: "Ruby WebKit/GTK+ bindings"
+ldesc: "Ruby bindings for the GTK+ port of WebKit."
