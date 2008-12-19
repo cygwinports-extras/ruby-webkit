@@ -1,0 +1,13 @@
+GIT_URI="git://github.com/danlucraft/rbwebkitgtk.git"
+GIT_REV="fb320fd"
+
+inherit ruby-gnome2 git
+
+HOMEPAGE="http://www.daniellucraft.com/blog/2008/04/ruby-webkit-2/"
+
+PATCH_URI="
+	20080413-add-deps.patch
+	20080413-sample.patch
+"
+
+RDOC_MODULE="Gtk/WebKit"

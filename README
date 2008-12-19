@@ -4,20 +4,21 @@ Ruby bindings for the GTK+ port of WebKit.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.3-1
-  gtk2-x11-2.12.9-1
-  ruby-1.8.6_p114-1
-  ruby-glib2-0.17.0_rc1-1
-  ruby-gtk2-0.17.0_rc1-1
-  webkit-0.1.34279-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.5-1
+  libwebkit1.0_1-1.0.3.39090-1
+  ruby-1.8.7_p72-2
+  ruby-glib2-0.18.1-2
+  ruby-gtk2-0.18.1-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-1
-  cygport-0.3.12-1
+  binutils-20080624-2
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
+  ruby-pkg-config-0.18.1-2
 
 Canonical website:
   http://www.daniellucraft.com/blog/category/ruby-webkit/
@@ -42,16 +43,22 @@ This will create:
 
 Files included in the binary package:
 
-  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/libruby-rbwebkitgtk.a
   /usr/lib/ruby/site_ruby/1.8/i386-cygwin/rbwebkitgtk.so
   /usr/lib/ruby/site_ruby/1.8/webkit.rb
   /usr/share/doc/ruby-webkit-20080413/COPYING.LIB
   /usr/share/doc/ruby-webkit-20080413/ChangeLog
   /usr/share/doc/ruby-webkit-20080413/README
+  /usr/share/ri/1.8/site/Gtk/WebKit/WebView/cdesc-WebView.yaml
+  /usr/share/ri/1.8/site/Gtk/WebKit/WebView/load_html_string-i.yaml
+  /usr/share/ri/1.8/site/Gtk/WebKit/WebView/mark_text_matches-i.yaml
+  /usr/share/ri/1.8/site/Gtk/WebKit/cdesc-WebKit.yaml
 
 ------------------
 
 Port Notes:
+
+----- version 20080413-2 -----
+Rebuilt.
 
 ----- version 20080413-1 -----
 Initial release for Cygwin.

@@ -1,0 +1,9 @@
+--- origsrc/rbwebkitgtk/sample/ruby-webkit-browser.rb	2008-06-18 00:08:49.000000000 -0500
++++ src/rbwebkitgtk/sample/ruby-webkit-browser.rb	2008-06-18 00:14:17.140625000 -0500
+@@ -1,5 +1,5 @@
+ 
+-require 'src/lib/webkit'
++require 'webkit'
+ 
+ win = Gtk::Window.new
+ win.signal_connect("destroy") { Gtk.main_quit }

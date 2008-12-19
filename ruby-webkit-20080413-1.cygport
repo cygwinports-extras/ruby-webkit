@@ -1,4 +1,0 @@
-HOMEPAGE="http://www.daniellucraft.com/blog/category/ruby-webkit/"
-GIT_URI="git://github.com/danlucraft/rbwebkitgtk.git"
-
-inherit ruby-gnome2 git
